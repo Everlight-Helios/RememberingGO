@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/5_Scenes/Main/MainMenu.unity
+    guid: 585f1e1f77178924c88864028d053143
+  - enabled: 1
+    path: Assets/5_Scenes/Main/ZiekenhuisKamerYorick.unity
+    guid: d846835a5f29b99458c16fb8c1ab6cec
+  - enabled: 1
+    path: Assets/5_Scenes/Main/Main_Scene.unity
+    guid: 0e0ececcbffc4cc45940397fca8fc463
+  - enabled: 0
+    path: Assets/5_Scenes/Geboortetunnel.unity
+    guid: 9366e158d0cd93d4eb5522422a9c95f0

@@ -1,0 +1,26 @@
+- 'Moving' shaders not working
+
+- Fog needs fixing
+
+- white stripe at the end not white enough.
+
+- orientatie ziekenhuis en eind'tunnel'
+
+- overgang violen naar hart te abrupt?
+
+- Laadbalk hoofdmenu.
+
+- credits brighter/clearer (changed from sprite to text mesh)
+
+- 'Mask' shader rebuild (not properly working on Go)
+
+- Maybe overal brightness?
+
+- Heartbeat audio needs changing (solution: use headphones?)
+
+
+Tried to solve, no solution(yet):
+- 'Depth of Field' scripts need updating
+
+
+Solved:

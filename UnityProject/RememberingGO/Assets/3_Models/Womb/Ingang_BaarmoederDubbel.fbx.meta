@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 1296318cfb77c4f499ec12662e00774a
+timeCreated: 1531922485
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BaarmoederSlierten_Connected
+    100002: BaarmoederSlierten_Connected1
+    100004: bevelPolygon10
+    100006: bevelPolygon10 1
+    100008: bevelPolygon11
+    100010: bevelPolygon11 1
+    100012: bevelPolygon12
+    100014: bevelPolygon12 1
+    100016: bevelPolygon14
+    100018: bevelPolygon14 1
+    100020: bevelPolygon15
+    100022: bevelPolygon15 1
+    100024: bevelPolygon16
+    100026: bevelPolygon16 1
+    100028: bevelPolygon18
+    100030: bevelPolygon18 1
+    100032: bevelPolygon19
+    100034: bevelPolygon19 1
+    100036: bevelPolygon20
+    100038: bevelPolygon20 1
+    100040: bevelPolygon22
+    100042: bevelPolygon22 1
+    100044: bevelPolygon23
+    100046: bevelPolygon23 1
+    100048: bevelPolygon24
+    100050: bevelPolygon24 1
+    100052: bevelPolygon25
+    100054: bevelPolygon25 1
+    100056: bevelPolygon26
+    100058: bevelPolygon26 1
+    100060: bevelPolygon27
+    100062: bevelPolygon27 1
+    100064: bevelPolygon28
+    100066: bevelPolygon28 1
+    100068: bevelPolygon30
+    100070: bevelPolygon30 1
+    100072: bevelPolygon31
+    100074: bevelPolygon31 1
+    100076: bevelPolygon32
+    100078: bevelPolygon32 1
+    100080: bevelPolygon33
+    100082: bevelPolygon33 1
+    100084: bevelPolygon34
+    100086: bevelPolygon34 1
+    100088: bevelPolygon35
+    100090: bevelPolygon35 1
+    100092: bevelPolygon36
+    100094: bevelPolygon36 1
+    100096: bevelPolygon4
+    100098: bevelPolygon4 1
+    100100: bevelPolygon5
+    100102: bevelPolygon5 1
+    100104: bevelPolygon7
+    100106: bevelPolygon7 1
+    100108: bevelPolygon8
+    100110: bevelPolygon8 1
+    100112: bevelPolygon9
+    100114: bevelPolygon9 1
+    100116: group3
+    100118: group3 1
+    100120: //RootNode
+    400000: BaarmoederSlierten_Connected
+    400002: BaarmoederSlierten_Connected1
+    400004: bevelPolygon10
+    400006: bevelPolygon10 1
+    400008: bevelPolygon11
+    400010: bevelPolygon11 1
+    400012: bevelPolygon12
+    400014: bevelPolygon12 1
+    400016: bevelPolygon14
+    400018: bevelPolygon14 1
+    400020: bevelPolygon15
+    400022: bevelPolygon15 1
+    400024: bevelPolygon16
+    400026: bevelPolygon16 1
+    400028: bevelPolygon18
+    400030: bevelPolygon18 1
+    400032: bevelPolygon19
+    400034: bevelPolygon19 1
+    400036: bevelPolygon20
+    400038: bevelPolygon20 1
+    400040: bevelPolygon22
+    400042: bevelPolygon22 1
+    400044: bevelPolygon23
+    400046: bevelPolygon23 1
+    400048: bevelPolygon24
+    400050: bevelPolygon24 1
+    400052: bevelPolygon25
+    400054: bevelPolygon25 1
+    400056: bevelPolygon26
+    400058: bevelPolygon26 1
+    400060: bevelPolygon27
+    400062: bevelPolygon27 1
+    400064: bevelPolygon28
+    400066: bevelPolygon28 1
+    400068: bevelPolygon30
+    400070: bevelPolygon30 1
+    400072: bevelPolygon31
+    400074: bevelPolygon31 1
+    400076: bevelPolygon32
+    400078: bevelPolygon32 1
+    400080: bevelPolygon33
+    400082: bevelPolygon33 1
+    400084: bevelPolygon34
+    400086: bevelPolygon34 1
+    400088: bevelPolygon35
+    400090: bevelPolygon35 1
+    400092: bevelPolygon36
+    400094: bevelPolygon36 1
+    400096: bevelPolygon4
+    400098: bevelPolygon4 1
+    400100: bevelPolygon5
+    400102: bevelPolygon5 1
+    400104: bevelPolygon7
+    400106: bevelPolygon7 1
+    400108: bevelPolygon8
+    400110: bevelPolygon8 1
+    400112: bevelPolygon9
+    400114: bevelPolygon9 1
+    400116: group3
+    400118: group3 1
+    400120: //RootNode
+    2100000: lambert2
+    2300000: bevelPolygon10
+    2300002: bevelPolygon10 1
+    2300004: bevelPolygon11
+    2300006: bevelPolygon11 1
+    2300008: bevelPolygon12
+    2300010: bevelPolygon12 1
+    2300012: bevelPolygon14
+    2300014: bevelPolygon14 1
+    2300016: bevelPolygon15
+    2300018: bevelPolygon15 1
+    2300020: bevelPolygon16
+    2300022: bevelPolygon16 1
+    2300024: bevelPolygon18
+    2300026: bevelPolygon18 1
+    2300028: bevelPolygon19
+    2300030: bevelPolygon19 1
+    2300032: bevelPolygon20
+    2300034: bevelPolygon20 1
+    2300036: bevelPolygon22
+    2300038: bevelPolygon22 1
+    2300040: bevelPolygon23
+    2300042: bevelPolygon23 1
+    2300044: bevelPolygon24
+    2300046: bevelPolygon24 1
+    2300048: bevelPolygon25
+    2300050: bevelPolygon25 1
+    2300052: bevelPolygon26
+    2300054: bevelPolygon26 1
+    2300056: bevelPolygon27
+    2300058: bevelPolygon27 1
+    2300060: bevelPolygon28
+    2300062: bevelPolygon28 1
+    2300064: bevelPolygon30
+    2300066: bevelPolygon30 1
+    2300068: bevelPolygon31
+    2300070: bevelPolygon31 1
+    2300072: bevelPolygon32
+    2300074: bevelPolygon32 1
+    2300076: bevelPolygon33
+    2300078: bevelPolygon33 1
+    2300080: bevelPolygon34
+    2300082: bevelPolygon34 1
+    2300084: bevelPolygon35
+    2300086: bevelPolygon35 1
+    2300088: bevelPolygon36
+    2300090: bevelPolygon36 1
+    2300092: bevelPolygon4
+    2300094: bevelPolygon4 1
+    2300096: bevelPolygon5
+    2300098: bevelPolygon5 1
+    2300100: bevelPolygon7
+    2300102: bevelPolygon7 1
+    2300104: bevelPolygon8
+    2300106: bevelPolygon8 1
+    2300108: bevelPolygon9
+    2300110: bevelPolygon9 1
+    3300000: bevelPolygon10
+    3300002: bevelPolygon10 1
+    3300004: bevelPolygon11
+    3300006: bevelPolygon11 1
+    3300008: bevelPolygon12
+    3300010: bevelPolygon12 1
+    3300012: bevelPolygon14
+    3300014: bevelPolygon14 1
+    3300016: bevelPolygon15
+    3300018: bevelPolygon15 1
+    3300020: bevelPolygon16
+    3300022: bevelPolygon16 1
+    3300024: bevelPolygon18
+    3300026: bevelPolygon18 1
+    3300028: bevelPolygon19
+    3300030: bevelPolygon19 1
+    3300032: bevelPolygon20
+    3300034: bevelPolygon20 1
+    3300036: bevelPolygon22
+    3300038: bevelPolygon22 1
+    3300040: bevelPolygon23
+    3300042: bevelPolygon23 1
+    3300044: bevelPolygon24
+    3300046: bevelPolygon24 1
+    3300048: bevelPolygon25
+    3300050: bevelPolygon25 1
+    3300052: bevelPolygon26
+    3300054: bevelPolygon26 1
+    3300056: bevelPolygon27
+    3300058: bevelPolygon27 1
+    3300060: bevelPolygon28
+    3300062: bevelPolygon28 1
+    3300064: bevelPolygon30
+    3300066: bevelPolygon30 1
+    3300068: bevelPolygon31
+    3300070: bevelPolygon31 1
+    3300072: bevelPolygon32
+    3300074: bevelPolygon32 1
+    3300076: bevelPolygon33
+    3300078: bevelPolygon33 1
+    3300080: bevelPolygon34
+    3300082: bevelPolygon34 1
+    3300084: bevelPolygon35
+    3300086: bevelPolygon35 1
+    3300088: bevelPolygon36
+    3300090: bevelPolygon36 1
+    3300092: bevelPolygon4
+    3300094: bevelPolygon4 1
+    3300096: bevelPolygon5
+    3300098: bevelPolygon5 1
+    3300100: bevelPolygon7
+    3300102: bevelPolygon7 1
+    3300104: bevelPolygon8
+    3300106: bevelPolygon8 1
+    3300108: bevelPolygon9
+    3300110: bevelPolygon9 1
+    4300000: bevelPolygon28
+    4300002: bevelPolygon27
+    4300004: bevelPolygon26
+    4300006: bevelPolygon25
+    4300008: bevelPolygon24
+    4300010: bevelPolygon23
+    4300012: bevelPolygon22
+    4300014: bevelPolygon20
+    4300016: bevelPolygon19
+    4300018: bevelPolygon18
+    4300020: bevelPolygon16
+    4300022: bevelPolygon15
+    4300024: bevelPolygon14
+    4300026: bevelPolygon12
+    4300028: bevelPolygon11
+    4300030: bevelPolygon10
+    4300032: bevelPolygon9
+    4300034: bevelPolygon8
+    4300036: bevelPolygon7
+    4300038: bevelPolygon5
+    4300040: bevelPolygon4
+    4300042: bevelPolygon30
+    4300044: bevelPolygon31
+    4300046: bevelPolygon32
+    4300048: bevelPolygon33
+    4300050: bevelPolygon34
+    4300052: bevelPolygon35
+    4300054: bevelPolygon36
+    4300056: bevelPolygon28
+    4300058: bevelPolygon27
+    4300060: bevelPolygon26
+    4300062: bevelPolygon25
+    4300064: bevelPolygon24
+    4300066: bevelPolygon23
+    4300068: bevelPolygon22
+    4300070: bevelPolygon20
+    4300072: bevelPolygon19
+    4300074: bevelPolygon18
+    4300076: bevelPolygon16
+    4300078: bevelPolygon15
+    4300080: bevelPolygon14
+    4300082: bevelPolygon12
+    4300084: bevelPolygon11
+    4300086: bevelPolygon10
+    4300088: bevelPolygon9
+    4300090: bevelPolygon8
+    4300092: bevelPolygon7
+    4300094: bevelPolygon5
+    4300096: bevelPolygon4
+    4300098: bevelPolygon30
+    4300100: bevelPolygon31
+    4300102: bevelPolygon32
+    4300104: bevelPolygon33
+    4300106: bevelPolygon34
+    4300108: bevelPolygon35
+    4300110: bevelPolygon36
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 130
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

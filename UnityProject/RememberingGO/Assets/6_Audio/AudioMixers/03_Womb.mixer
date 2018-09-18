@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 03_Womb
+  m_OutputGroup: {fileID: 243000013937971732, guid: a8df0c19614fd8949beb083ba3fe8f9d,
+    type: 2}
+  m_MasterGroup: {fileID: 24300001}
+  m_Snapshots:
+  - {fileID: 24500003}
+  - {fileID: 245000011679206298}
+  m_StartSnapshot: {fileID: 24500003}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 714e3377263ab844999bb5dc9f2f5f34
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500003}
+--- !u!243 &24300001
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 714e3377263ab844999bb5dc9f2f5f34
+  m_Children: []
+  m_Volume: 94559d48fff8a214e8a8c718fe6f0618
+  m_Pitch: 81e6728fff8df1a48b53d2faf934a1da
+  m_Effects:
+  - {fileID: 24400002}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400002
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 283b83d100ee39247b56e341a4236761
+  m_EffectName: Attenuation
+  m_MixLevel: 6cef4c30d92ad0544aed999ddd7fe510
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500003
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 299f792af1572844691373167e35679a
+  m_FloatValues:
+    94559d48fff8a214e8a8c718fe6f0618: -0.08374829
+  m_TransitionOverrides: {}
+--- !u!245 &245000011679206298
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WombGoodSilent
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 82e4952286829764788290ee6887e471
+  m_FloatValues:
+    b0fa957f21220be45a767e76d52b6716: -80
+  m_TransitionOverrides: {}
