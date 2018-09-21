@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.05455941, g: 0.034332212, b: 0.051239036, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2355,24 +2355,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 223000011575403676, guid: 843bd6b90f6d07c41b14cb762d1963aa,
         type: 2}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 223000011575403676, guid: 843bd6b90f6d07c41b14cb762d1963aa,
-        type: 2}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 223000011575403676, guid: 843bd6b90f6d07c41b14cb762d1963aa,
-        type: 2}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 728424427}
-    - target: {fileID: 223000011575403676, guid: 843bd6b90f6d07c41b14cb762d1963aa,
-        type: 2}
-      propertyPath: m_PlaneDistance
-      value: 0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 843bd6b90f6d07c41b14cb762d1963aa, type: 2}
   m_IsPrefabParent: 0
@@ -5924,7 +5909,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4340257626369718, guid: fcd3dd0b56b8b1d49b697ce59a29ccf5, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.12619898
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4340257626369718, guid: fcd3dd0b56b8b1d49b697ce59a29ccf5, type: 2}
       propertyPath: m_LocalRotation.z
@@ -5932,7 +5917,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4340257626369718, guid: fcd3dd0b56b8b1d49b697ce59a29ccf5, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.992005
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4340257626369718, guid: fcd3dd0b56b8b1d49b697ce59a29ccf5, type: 2}
       propertyPath: m_RootOrder
@@ -5940,7 +5925,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4340257626369718, guid: fcd3dd0b56b8b1d49b697ce59a29ccf5, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 14.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20574523736186470, guid: fcd3dd0b56b8b1d49b697ce59a29ccf5,
         type: 2}

@@ -6,7 +6,7 @@ public class StartOnRadius : MonoBehaviour
 
     private AudioSource aSource;
     private Transform player;
-    private float distance;
+    public float distance;
 
     void Start()
     {
