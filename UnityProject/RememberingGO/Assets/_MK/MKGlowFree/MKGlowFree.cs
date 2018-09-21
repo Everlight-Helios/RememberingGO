@@ -153,8 +153,7 @@ namespace MK.Glow
 
         private void Cleanup()
         {
-            Destroy(selectiveGlowCamera);
-            Destroy(SelectiveGlowCameraObject);
+            
         }
 
         private void OnEnable()
