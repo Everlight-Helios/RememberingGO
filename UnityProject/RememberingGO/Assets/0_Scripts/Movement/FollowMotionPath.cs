@@ -80,8 +80,8 @@ public class FollowMotionPath : MonoBehaviour
         this.transform.position = pointOnPath;
 
         //Make the character look at the target but only rotate along it's local y-axis.
-        this.character.forward = this.speed >0?norm:-norm;
-		this.character.LookAt(target);
+        //this.character.forward = this.speed >0?norm:-norm;
+		//this.character.LookAt(target);
 		//this.character.eulerAngles = new Vector3( 0, this.transform.eulerAngles.y, 0 );		
 
 	}

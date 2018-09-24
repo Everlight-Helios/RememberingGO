@@ -24,13 +24,8 @@ public class Loadlevel : MonoBehaviour {
         {
             //float curTime = Time.time;
             //float alpha = Map(curTime, 0f, 5f, 0f, 1f);
-            Image[] ts = this.transform.GetComponentsInChildren<Image>(true);
-            if (ts.Length != 0)
-            {
-                fade = ts[0];
-            }
-            var tempColor = fade.color;
-            tempColor.a += (0.2f *Time.deltaTime);
+            Color tempColor = fade.color;
+            tempColor.a += (Time.deltaTime/5);
            
             fade.color = tempColor;
             
@@ -59,6 +54,7 @@ public class Loadlevel : MonoBehaviour {
         yield return async;
 
         Debug.Log("Loading complete");
+		Destroy(this);
 
     }
 }

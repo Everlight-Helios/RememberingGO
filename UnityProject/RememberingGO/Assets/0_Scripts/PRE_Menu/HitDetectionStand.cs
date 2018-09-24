@@ -3,57 +3,55 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Lay Class
-public class HitDetection : MonoBehaviour {
+// Stand Class
+public class HitDetectionStand : MonoBehaviour {
 
-  
+	public bool hit = false;
+
     public float _x = 1f;
-    public bool Lay = false;
- 
+    public bool Standing = false;
+
     public GameObject tc;
-    
     float speed = 0.3f;
     private IEnumerator coroutine;
 
     // Use this for initialization
     void Start ()
     {
+       
         if (tc == null)
         {
-            tc = GameObject.Find("LaySelect");
+            tc = GameObject.Find("StandSelect");
         }
-        
+          
         coroutine = GoMove(_x);
 
-        
     }
-	
 
-    void HitByRay()
+	void HitByRay()
     {
-        GameObject.Find("CameraManager").GetComponent<CameraManager>().liggen = true;
         
-        if (!Lay) //To make sure it runs 1 time
+        if (!Standing)
         {
 
-            Lay = true;
+            Standing = true;
             GetComponent<SphereCollider>().enabled = false; //To make sure it doesn't get hit again
-            GameObject.Find("Stand").GetComponent<SphereCollider>().enabled = false; //To make sure the other one cant get hit 
+            GameObject.Find("Lay").GetComponent<SphereCollider>().enabled = false;
             GameObject.Find("CursorManager").GetComponent<HideCursor>().StartFadeOutCursor(); //remove Cursor
             StartCoroutine(coroutine);
             
-        }
 
+        }
     }
 
-    private IEnumerator GoMove(float x)
+    private IEnumerator GoMove(float x) //Wait x Seconds before moving the image
     {
         tc.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         tc.SetActive(false);
         yield return new WaitForSeconds(0.1f);
         tc.SetActive(true);
-        GameObject.Find("Stand").SetActive(false);
+        GameObject.Find("Lay").SetActive(false);
         yield return new WaitForSeconds(0.1f);
         tc.SetActive(false);
         yield return new WaitForSeconds(0.1f);
@@ -61,8 +59,8 @@ public class HitDetection : MonoBehaviour {
         GameObject.Find("CameraManager").GetComponent<Loadlevel>().gogo = true;
         
         yield return new WaitForSeconds(x);
+      
         
-
     }
 
 }

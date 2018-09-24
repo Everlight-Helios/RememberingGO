@@ -14,13 +14,13 @@ public class CameraManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (liggen) {
-            StartCoroutine(PrintToConsole());
+            //StartCoroutine(PrintToConsole());
         }
 	}
 
     private IEnumerator PrintToConsole() {
 
-        Debug.Log("Liggen = activated");
+        //Debug.Log("Liggen = activated");
         StopCoroutine("PrintToConsole");
         yield return null;
 
