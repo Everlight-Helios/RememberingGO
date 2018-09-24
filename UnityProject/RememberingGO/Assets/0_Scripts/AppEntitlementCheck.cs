@@ -15,7 +15,7 @@ public class AppEntitlementCheck: MonoBehaviour {
       Debug.LogError("Platform failed to initialize due to exception.");
       Debug.LogException(e);
       // Immediately quit the application.
-      UnityEngine.Application.Quit();
+      //UnityEngine.Application.Quit();
     }
   }
 
@@ -24,7 +24,7 @@ public class AppEntitlementCheck: MonoBehaviour {
     if (msg.IsError) 
     {
       Debug.LogError("You are NOT entitled to use this app.");
-      UnityEngine.Application.Quit();
+      //UnityEngine.Application.Quit();
     } 
     else 
     {
