@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 2
-  m_FogDensity: 0.01
+  m_FogDensity: 0.3
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -255,6 +255,11 @@ Prefab:
         type: 2}
       propertyPath: moving
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673398689544442, guid: fcd3dd0b56b8b1d49b697ce59a29ccf5,
+        type: 2}
+      propertyPath: circleShrinkSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114477862204955162, guid: fcd3dd0b56b8b1d49b697ce59a29ccf5, type: 2}
@@ -805,6 +810,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114495098311867470, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8,
+        type: 2}
+      propertyPath: fogDensity
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8, type: 2}
   m_IsPrefabParent: 0
@@ -852,6 +862,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114026521008113868, guid: 69b3268bc1df8664fa322dd11fb34683,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1609535641}
     - target: {fileID: 114537708317525876, guid: 69b3268bc1df8664fa322dd11fb34683,
         type: 2}
       propertyPath: player
@@ -865,16 +880,6 @@ Prefab:
     - target: {fileID: 1914540591183178, guid: 69b3268bc1df8664fa322dd11fb34683, type: 2}
       propertyPath: m_Name
       value: --GeboorteTunnel
-      objectReference: {fileID: 0}
-    - target: {fileID: 114026521008113868, guid: 69b3268bc1df8664fa322dd11fb34683,
-        type: 2}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1609535641}
-    - target: {fileID: 65511645127423818, guid: 69b3268bc1df8664fa322dd11fb34683,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69b3268bc1df8664fa322dd11fb34683, type: 2}

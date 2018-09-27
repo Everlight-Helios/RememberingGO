@@ -48,7 +48,7 @@ public class EnableKutPoort : MonoBehaviour {
     private IEnumerator Count()
     {
 
-        yield return new WaitForSeconds(25);
+        yield return new WaitForSeconds(20);
         move = true;
 
 

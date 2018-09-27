@@ -24,7 +24,7 @@ public class MovePlanes : MonoBehaviour {
     private IEnumerator MoveToSide()
     {
 
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(22);
 
         while(transform.localPosition.x < 12.6f && transform.localPosition.x > -12.6f)
         {
