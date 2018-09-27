@@ -9,7 +9,7 @@ Material:
   m_Name: AS_Strengen
   m_Shader: {fileID: 4800000, guid: 7582de15e9cf0994d99ec642f99e9b9f, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 5
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Brightnesscolorband: -0.5
+    - _Brightnesscolorband: -0.4
     - _Brightnesswobble: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -67,14 +67,14 @@ Material:
     - _DstBlend: 0
     - _Glossiness: 0.5
     - _Gradientamount: 0
-    - _Gradientamountwobble: 4
+    - _Gradientamountwobble: 3
     - _Mapping: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Speed1: 0
-    - _Speed2: 2
+    - _Speed2: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
