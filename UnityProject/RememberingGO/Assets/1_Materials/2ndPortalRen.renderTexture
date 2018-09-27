@@ -5,7 +5,7 @@ RenderTexture:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: MainCamRenText
+  m_Name: 2ndPortalRen
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -30,4 +30,4 @@ RenderTexture:
     m_WrapV: 1
     m_WrapW: 1
   m_Dimension: 2
-  m_VolumeDepth: 1
+  m_VolumeDepth: 1024
