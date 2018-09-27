@@ -813,11 +813,11 @@ Prefab:
     - target: {fileID: 114495098311867470, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8,
         type: 2}
       propertyPath: fogDensity
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1303409342082726, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1791713099960886, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8, type: 2}
       propertyPath: m_IsActive
@@ -854,6 +854,15 @@ Prefab:
     - target: {fileID: 1120873592319562, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1132889182239766, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114631953369874660, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8,
+        type: 2}
+      propertyPath: fogDensity
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0d2604c099ca9e4ba2c6e4ed19a4ec8, type: 2}

@@ -146,7 +146,7 @@ public class SmoothLerp : MonoBehaviour
             // When the Circle is small enough, we send a message to the targeted object.
             if (hit.transform.gameObject.layer == 12)
             {
-				print("Hit!");
+				//print("Hit!");
                 LaTarget = hit.collider.gameObject.transform;
                 UpdateLerpCircle(0.25f, -Time.deltaTime * circleShrinkSpeed);
 
