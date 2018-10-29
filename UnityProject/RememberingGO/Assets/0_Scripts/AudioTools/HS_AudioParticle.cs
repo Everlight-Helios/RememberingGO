@@ -6,13 +6,10 @@ public class HS_AudioParticle : MonoBehaviour {
 
     private AudioSource audioSource;
     private ParticleSystem partSyst;
-
-    private float[] spectrum = new float[64];
+	
 
     private ParticleSystem.EmissionModule emissonModule;
-
-    [SerializeField]
-    private bool audioEmission = true;
+	
 
     private ParticleSystem pSystem
     {

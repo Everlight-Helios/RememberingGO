@@ -12,9 +12,6 @@ public class GK_AudioParticle : MonoBehaviour {
     [SerializeField]
     private ParticleSystem partSyst;
 
-
-    private float[] spectrum = new float[64];
-
     private ParticleSystem.EmissionModule emissonModule;
 
     [SerializeField]
@@ -41,8 +38,6 @@ public class GK_AudioParticle : MonoBehaviour {
         emissonModule = partSyst.emission;
 
         _samples = new float[QSamples];
-        _spectrum = new float[QSamples];
-        _fSample = AudioSettings.outputSampleRate;
 
         GameObject.Find("GeboorteSwitcher").GetComponent<GeboorteSwitcher>().OnFinalFase += DisableMe;
 

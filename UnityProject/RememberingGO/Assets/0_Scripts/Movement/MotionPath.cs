@@ -137,7 +137,6 @@ public class MotionPath : MonoBehaviour
 
         catch(System.Exception e)
         {
-
             return Vector3.zero;
       
         }

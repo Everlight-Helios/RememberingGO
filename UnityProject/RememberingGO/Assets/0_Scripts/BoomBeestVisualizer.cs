@@ -28,7 +28,6 @@ public class BoomBeestVisualizer : MonoBehaviour {
 
     public float[] spectrum = new float[64];
     Vector3 currentVelocity;
-    Vector3 previousPosition;
 
     [SerializeField]
     private float time = 0;
@@ -63,8 +62,7 @@ public class BoomBeestVisualizer : MonoBehaviour {
             }
 
             boomBeest.localPosition = Vector3.SmoothDamp(boomBeest.localPosition, new Vector3(Mathf.Sin(Time.time * 2) * total * 100, -total * 100, Mathf.Cos(Time.time * 2) * total * 100), ref currentVelocity, 0.25f);
-
-            previousPosition = boomBeest.localPosition;
+			
 
 
 

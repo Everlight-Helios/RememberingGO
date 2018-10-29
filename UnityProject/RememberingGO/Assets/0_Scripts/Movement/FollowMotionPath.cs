@@ -71,18 +71,13 @@ public class FollowMotionPath : MonoBehaviour
 
         //Create new Vector3's for the character pos, the normalized pos and the target pos.
         Vector3 pos = motionPath.PointOnNormalizedPath(uv);
-		Vector3 norm = motionPath.NormalOnNormalizedPath(uv);
-		Vector3 target = motionPath.LookAheadOnPath(uv + lookAheadAmount);
+		
 
 		//Set the characters position to the new position.
 		pointOnPath = pos;
 
         this.transform.position = pointOnPath;
-
-        //Make the character look at the target but only rotate along it's local y-axis.
-        //this.character.forward = this.speed >0?norm:-norm;
-		//this.character.LookAt(target);
-		//this.character.eulerAngles = new Vector3( 0, this.transform.eulerAngles.y, 0 );		
+		
 
 	}
 

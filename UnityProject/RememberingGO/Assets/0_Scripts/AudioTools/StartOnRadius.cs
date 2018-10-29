@@ -23,7 +23,8 @@ public class StartOnRadius : MonoBehaviour
         float dist = Vector3.Distance(aSource.transform.position, player.position);
         if (dist < distance)
         {
-            aSource.Play();
+			print("Play Audio! -> "+this.gameObject.name); 
+			aSource.Play();
             Destroy(this);
         }
 
