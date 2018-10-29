@@ -58,7 +58,6 @@ public class LA_SwitchToMain : MonoBehaviour
             StartCoroutine(GoToLoadedScene());
             Switching = true;
             GetComponent<SphereCollider>().enabled = false;
-			GameObject.Find("Player").GetComponent<SmoothLerp>().enabled = false;
             GameObject.Find("CursorManager").GetComponent<HideCursor>().StartFadeOutCursor();
 
 

@@ -55,6 +55,8 @@ public class ChangePlayerSpeed : MonoBehaviour
 	void OnDrawGizmos()
     {
 
+        BoxCollider collider = GetComponent<BoxCollider>();
+
         Gizmos.color = Color.white;
         //Gizmos.DrawCube(transform.position, new Vector3(collider.size.x, collider.size.y, collider.size.z));
 

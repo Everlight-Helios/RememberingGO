@@ -23,6 +23,7 @@ public class ColorPoint : MonoBehaviour
     public GameObject player;
 
     private ColorManager manager;
+    private BoxCollider col;
 
     private bool once;
 
@@ -35,7 +36,8 @@ public class ColorPoint : MonoBehaviour
 
     void Start()
     {
-		
+
+        col = GetComponent<BoxCollider>();
         manager = GameObject.Find("ColorManager").GetComponent<ColorManager>();
 		
         player = GameObject.Find("Player");
@@ -46,7 +48,35 @@ public class ColorPoint : MonoBehaviour
 
     void Update()
     {
-		
+
+        /*if (col.bounds.Contains(player.transform.position) && !once)
+        {
+
+            SendMyColor();
+
+            switch (fadeMode)
+            {
+
+                case FadeMode.Nothing:
+                    break;
+
+                case FadeMode.FadeIn:
+                    manager.FadeInOverlay();
+                    break;
+
+                case FadeMode.FadeOut:
+                    manager.FadeOutOverlay();
+                    break;
+
+                case FadeMode.Background:
+                    Camera.main.backgroundColor = skyColor;
+                    break;
+
+            }
+
+            this.enabled = false;
+
+        }*/
 
     }
 
