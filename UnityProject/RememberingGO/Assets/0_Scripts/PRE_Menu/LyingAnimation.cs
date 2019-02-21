@@ -14,22 +14,20 @@ public class LyingAnimation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (GameObject.Find("CameraManager").GetComponent<RiftTiltSet>())
+        if (GameObject.Find("CameraManager").GetComponent<CameraManager>())
         {
-            targetAngle = new Vector3(GameObject.Find("CameraManager").GetComponent<RiftTiltSet>().tilt,GameObject.Find("CameraManager").GetComponent<RiftTiltSet>().pan,0);
-            currentAngle = new Vector3(
-            Mathf.LerpAngle(currentAngle.x, targetAngle.x, (0.25f* Time.deltaTime)),Mathf.LerpAngle(currentAngle.y, targetAngle.y, (0.25f* Time.deltaTime)),0);
-
-            transform.eulerAngles = currentAngle;
-        }
-		if (GameObject.Find("CameraManager").GetComponent<GOTiltSet>())
+            StartCoroutine(TurnUp());
+        }	
+        if (run)
         {
-            targetAngle = new Vector3(GameObject.Find("CameraManager").GetComponent<GOTiltSet>().tilt,GameObject.Find("CameraManager").GetComponent<GOTiltSet>().pan,0);
             currentAngle = new Vector3(
-            Mathf.LerpAngle(currentAngle.x, targetAngle.x, (0.25f* Time.deltaTime)),Mathf.LerpAngle(currentAngle.y, targetAngle.y, (0.25f* Time.deltaTime)),0);
+            Mathf.LerpAngle(currentAngle.x, targetAngle.x, (0.25f* Time.deltaTime)),0,0);
 
             transform.eulerAngles = currentAngle;
         }
 	}
-    
+    private IEnumerator TurnUp() {
+        yield return new WaitForSeconds(0.5f);
+        run = true;
+    }
 }

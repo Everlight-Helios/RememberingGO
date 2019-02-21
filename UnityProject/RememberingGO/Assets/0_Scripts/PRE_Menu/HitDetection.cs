@@ -32,7 +32,7 @@ public class HitDetection : MonoBehaviour {
 
 	void HitByRay()
     {
-        GameObject.Find("CameraManager").GetComponent<CameraManager>().liggen = true;
+
         
         if (!Lay) //To make sure it runs 1 time
         {

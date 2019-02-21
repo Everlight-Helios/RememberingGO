@@ -8,28 +8,21 @@ public class RotatePlayer : MonoBehaviour {
 	public float lerpSpeed = 1.0f;
     // Use this for initialization
     void Start () {
-		transform.eulerAngles = new Vector3(GameObject.Find("CameraManager").GetComponent<RiftTiltSet>().tilt,GameObject.Find("CameraManager").GetComponent<RiftTiltSet>().pan,0);
+		transform.eulerAngles = new Vector3(GameObject.Find("CameraManager").GetComponent<ControllerTiltSet>().tilt,GameObject.Find("CameraManager").GetComponent<ControllerTiltSet>().pan,0);
         currentAngle = transform.eulerAngles;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (GameObject.Find("CameraManager").GetComponent<RiftTiltSet>())
+        if (GameObject.Find("CameraManager").GetComponent<ControllerTiltSet>())
         {
-            targetAngle = new Vector3(GameObject.Find("CameraManager").GetComponent<RiftTiltSet>().tilt,GameObject.Find("CameraManager").GetComponent<RiftTiltSet>().pan,0);
+            targetAngle = new Vector3(GameObject.Find("CameraManager").GetComponent<ControllerTiltSet>().tilt,GameObject.Find("CameraManager").GetComponent<ControllerTiltSet>().pan,0);
             currentAngle = new Vector3(
             Mathf.LerpAngle(currentAngle.x, targetAngle.x, (lerpSpeed* Time.deltaTime)),Mathf.LerpAngle(currentAngle.y, targetAngle.y, (lerpSpeed* Time.deltaTime)),0);
 
             transform.eulerAngles = currentAngle;
         }
-		if (GameObject.Find("CameraManager").GetComponent<GOTiltSet>())
-        {
-            targetAngle = new Vector3(GameObject.Find("CameraManager").GetComponent<GOTiltSet>().tilt,GameObject.Find("CameraManager").GetComponent<GOTiltSet>().pan,0);
-            currentAngle = new Vector3(
-            Mathf.LerpAngle(currentAngle.x, targetAngle.x, (lerpSpeed* Time.deltaTime)),Mathf.LerpAngle(currentAngle.y, targetAngle.y, (lerpSpeed* Time.deltaTime)),0);
-
-            transform.eulerAngles = currentAngle;
-        }
+		
 	}
 
 }
