@@ -14,7 +14,7 @@ public class LyingAnimation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (GameObject.Find("CameraManager").GetComponent<CameraManager>().liggen)
+        if (GameObject.Find("CameraManager").GetComponent<CameraManager>())
         {
             StartCoroutine(TurnUp());
         }	
