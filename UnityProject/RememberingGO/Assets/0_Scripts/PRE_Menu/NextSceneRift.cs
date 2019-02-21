@@ -2,19 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraManager : MonoBehaviour {
-
-    public bool liggen = false;
+public class NextSceneRift : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        DontDestroyOnLoad(this.gameObject);
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        
+		if(OVRInput.GetDown(OVRInput.Button.One)){
+			GameObject.Find("CameraManager").GetComponent<Loadlevel>().gogo = true;
+		}
 	}
-
-    
 }
